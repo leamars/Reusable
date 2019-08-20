@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		8B0E53D2230A4F5A008C99F4 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D1230A4F5A008C99F4 /* CellView.swift */; };
 		8B0E53D4230A53AA008C99F4 /* Screensaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D3230A53AA008C99F4 /* Screensaver.swift */; };
-		8B0E53D6230A8023008C99F4 /* CardCallbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D5230A8023008C99F4 /* CardCallbackView.swift */; };
-		8B0E53D8230A89D6008C99F4 /* CardObservingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D7230A89D6008C99F4 /* CardObservingView.swift */; };
+		8B0E53D6230A8023008C99F4 /* CardViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D5230A8023008C99F4 /* CardViewModelView.swift */; };
+		8B0E53D8230A89D6008C99F4 /* CardCallbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D7230A89D6008C99F4 /* CardCallbackView.swift */; };
 		8B993C282309E33300B3C7DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C272309E33300B3C7DC /* AppDelegate.swift */; };
 		8B993C2A2309E33300B3C7DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C292309E33300B3C7DC /* SceneDelegate.swift */; };
 		8B993C2C2309E33300B3C7DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C2B2309E33300B3C7DC /* ContentView.swift */; };
@@ -22,13 +22,14 @@
 		8B993C402309E4F300B3C7DC /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C3F2309E4F300B3C7DC /* Font+Extensions.swift */; };
 		8B993C44230A066400B3C7DC /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C43230A066400B3C7DC /* CounterView.swift */; };
 		8B993C46230A06E000B3C7DC /* IncreaseDecreaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C45230A06E000B3C7DC /* IncreaseDecreaseView.swift */; };
+		8BE12888230B704500644828 /* CardObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE12887230B704500644828 /* CardObserverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B0E53D1230A4F5A008C99F4 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		8B0E53D3230A53AA008C99F4 /* Screensaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screensaver.swift; sourceTree = "<group>"; };
-		8B0E53D5230A8023008C99F4 /* CardCallbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCallbackView.swift; sourceTree = "<group>"; };
-		8B0E53D7230A89D6008C99F4 /* CardObservingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardObservingView.swift; sourceTree = "<group>"; };
+		8B0E53D5230A8023008C99F4 /* CardViewModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModelView.swift; sourceTree = "<group>"; };
+		8B0E53D7230A89D6008C99F4 /* CardCallbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCallbackView.swift; sourceTree = "<group>"; };
 		8B993C242309E33300B3C7DC /* Reusable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reusable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B993C272309E33300B3C7DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B993C292309E33300B3C7DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		8B993C3F2309E4F300B3C7DC /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
 		8B993C43230A066400B3C7DC /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		8B993C45230A06E000B3C7DC /* IncreaseDecreaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreaseDecreaseView.swift; sourceTree = "<group>"; };
+		8BE12887230B704500644828 /* CardObserverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardObserverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +90,9 @@
 				8B993C45230A06E000B3C7DC /* IncreaseDecreaseView.swift */,
 				8B0E53D1230A4F5A008C99F4 /* CellView.swift */,
 				8B0E53D3230A53AA008C99F4 /* Screensaver.swift */,
-				8B0E53D5230A8023008C99F4 /* CardCallbackView.swift */,
-				8B0E53D7230A89D6008C99F4 /* CardObservingView.swift */,
+				8B0E53D5230A8023008C99F4 /* CardViewModelView.swift */,
+				8B0E53D7230A89D6008C99F4 /* CardCallbackView.swift */,
+				8BE12887230B704500644828 /* CardObserverView.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -175,7 +178,8 @@
 			files = (
 				8B993C402309E4F300B3C7DC /* Font+Extensions.swift in Sources */,
 				8B993C3E2309E48700B3C7DC /* Color+Extensions.swift in Sources */,
-				8B0E53D8230A89D6008C99F4 /* CardObservingView.swift in Sources */,
+				8BE12888230B704500644828 /* CardObserverView.swift in Sources */,
+				8B0E53D8230A89D6008C99F4 /* CardCallbackView.swift in Sources */,
 				8B993C282309E33300B3C7DC /* AppDelegate.swift in Sources */,
 				8B0E53D4230A53AA008C99F4 /* Screensaver.swift in Sources */,
 				8B993C44230A066400B3C7DC /* CounterView.swift in Sources */,
@@ -183,7 +187,7 @@
 				8B993C2C2309E33300B3C7DC /* ContentView.swift in Sources */,
 				8B993C46230A06E000B3C7DC /* IncreaseDecreaseView.swift in Sources */,
 				8B993C3C2309E34F00B3C7DC /* MainButtonView.swift in Sources */,
-				8B0E53D6230A8023008C99F4 /* CardCallbackView.swift in Sources */,
+				8B0E53D6230A8023008C99F4 /* CardViewModelView.swift in Sources */,
 				8B0E53D2230A4F5A008C99F4 /* CellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

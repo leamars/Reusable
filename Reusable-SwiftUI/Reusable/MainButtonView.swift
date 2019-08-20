@@ -55,6 +55,12 @@ struct MainButtonView: View {
     self.callback = callback
   }
   
+  init(title: String, callback: @escaping () -> Void) {
+    self.title = title
+    self.type = MainButtonType.primary(withArrow: false)
+    self.callback = callback
+  }
+  
   var body: some View {
     Button(action: {
       self.callback()

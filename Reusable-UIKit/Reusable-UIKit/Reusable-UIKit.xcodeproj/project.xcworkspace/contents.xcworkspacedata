@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ReusableUIKit.xcodeproj">
+      location = "self:Reusable-UIKit.xcodeproj">
    </FileRef>
 </Workspace>

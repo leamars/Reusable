@@ -9,10 +9,17 @@
 import SwiftUI
 
 struct ContentView: View {
+  @State var guessedRight: Bool = false
+  
   var body: some View {
-    cardObserving()
+//    VStack {
+//      cardObserving()
+//      if guessedRight {
+//        Text("Guessed righ!")
+//      }
+//    }
     //tableView()
-    //increaseDecreaseView()
+    increaseDecreaseView()
     //lotsOfButtons()
   }
   
@@ -64,7 +71,10 @@ struct ContentView: View {
   }
   
   func cardObserving() -> AnyView {
-    let card = CardObservingView(title: "Lea", subtitle: "Marolt Sonnenschein", screensaver: Screensaver())
+    let card = CardCallbackView(title: "Lea", subtitle: "Marolt Sonnenschein", scrensaver: Screensaver()) { success in
+      self.guessedRight = success
+    }
+    
     return AnyView(card)
   }
   
@@ -75,7 +85,7 @@ struct ContentView: View {
       addText = true
     }, screensaver: Screensaver())
     
-    let card = CardCallbackView(viewModel: viewModel)
+    let card = CardViewModelView(viewModel: viewModel)
     
     let view = VStack {
       card

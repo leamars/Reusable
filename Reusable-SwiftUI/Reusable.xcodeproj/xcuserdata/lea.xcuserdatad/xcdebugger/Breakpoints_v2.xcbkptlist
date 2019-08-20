@@ -20,14 +20,14 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "90B96ECD-4978-4121-AC69-F53ADDA7C0D0 - f8701e93dd3708e0"
+                  uuid = "90B96ECD-4978-4121-AC69-F53ADDA7C0D0 - 6616f5a311a947f1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Reusable.CellView.body.getter : some"
                   moduleName = "Reusable"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Projects/Reusable/Reusable/CellView.swift"
+                  urlString = "file:///Users/lea/Github/Reusable/Reusable-SwiftUI/Reusable/CellView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -35,19 +35,115 @@
                   offsetFromSymbolStart = "134">
                </Location>
                <Location
-                  uuid = "90B96ECD-4978-4121-AC69-F53ADDA7C0D0 - 717f37adb816bfda"
+                  uuid = "90B96ECD-4978-4121-AC69-F53ADDA7C0D0 - ef19dc9d7488f0cb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;)&gt; in Reusable.CellView.body.getter : some"
                   moduleName = "Reusable"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Projects/Reusable/Reusable/CellView.swift"
+                  urlString = "file:///Users/lea/Github/Reusable/Reusable-SwiftUI/Reusable/CellView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
                   endingLineNumber = "20"
                   offsetFromSymbolStart = "534">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59AA80C4-2C3E-441C-BFE0-932ED5E8846D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reusable/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "cardCallback()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EAF2C7A-1291-4C9A-A8D6-EDDC56C75BAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reusable/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "cardObserving()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90A7FAEE-CC36-4483-BFF2-2545B0AC98EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reusable/CounterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F9C23EF-2C5F-48C6-ABB4-93765A49D15C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reusable/IncreaseDecreaseView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2F9C23EF-2C5F-48C6-ABB4-93765A49D15C - 144750a6d686fd25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reusable.IncreaseDecreaseView.body.getter : some"
+                  moduleName = "Reusable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lea/Github/Reusable/Reusable-SwiftUI/Reusable/IncreaseDecreaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "2F9C23EF-2C5F-48C6-ABB4-93765A49D15C - 1e13c23e6b505b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in Reusable.IncreaseDecreaseView.body.getter : some"
+                  moduleName = "Reusable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lea/Github/Reusable/Reusable-SwiftUI/Reusable/IncreaseDecreaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "158">
                </Location>
             </Locations>
          </BreakpointContent>
