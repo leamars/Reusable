@@ -23,7 +23,7 @@ struct ContentView: View {
     //lotsOfButtons()
   }
   
-  func lotsOfButtons() -> AnyView {
+  func lotsOfButtons() -> some View {
     let buttons = VStack(spacing: 20) {
       
       MainButtonView(title: "Sign In", type: .primary(withArrow: true)) {
@@ -52,14 +52,14 @@ struct ContentView: View {
     }
     .padding([.leading, .trailing], 20)
     
-    return AnyView(buttons)
+    return buttons
   }
   
-  func increaseDecreaseView() -> AnyView {
-    return AnyView(CounterView())
+  func increaseDecreaseView() -> CounterView {
+    return CounterView()
   }
   
-  func tableView() -> AnyView {
+  func tableView() -> some View {
     let nums = (1...20)
     let pairs = nums.map { ScreensaverData(id: $0, num: $0, screensaver: Screensaver()) }
     let tableView = List {
@@ -67,18 +67,18 @@ struct ContentView: View {
         CellView(title: "\(pair.num)", subtitle: "My name is \(pair.num)!", screensaver: pair.screensaver)
       }
     }
-    return AnyView(tableView)
+    return tableView
   }
   
-  func cardObserving() -> AnyView {
+  func cardObserving() -> CardCallbackView {
     let card = CardCallbackView(title: "Lea", subtitle: "Marolt Sonnenschein", scrensaver: Screensaver()) { success in
       self.guessedRight = success
     }
     
-    return AnyView(card)
+    return card
   }
   
-  func cardCallback() -> AnyView {
+  func cardCallback() -> some View {
     var addText: Bool = false
     
     let viewModel = ViewModel(title: "Lea", subtitle: "Is amazing", callback: {
@@ -93,7 +93,7 @@ struct ContentView: View {
         Text("I WAS RIGHT!)")
       }
     }
-    return AnyView(view)
+    return view
   }
 }
 
