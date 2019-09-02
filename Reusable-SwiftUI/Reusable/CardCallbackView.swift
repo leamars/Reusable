@@ -27,7 +27,7 @@ struct CardCallbackView: View {
   
   var body: some View {
     HStack {
-      MainButtonView(title: "Click!", type: .primary(withArrow: false)) {
+      MainButtonView(title: "Click!", type: .primary) {
         self.callback(self.screensaver.selectedColor == Color.appGreen)
       }
       

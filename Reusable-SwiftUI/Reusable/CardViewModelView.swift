@@ -32,7 +32,7 @@ struct CardViewModelView: View {
   
   var body: some View {
     HStack {
-      MainButtonView(title: "Click", type: .primary(withArrow: true)) {
+      MainButtonView(title: "Click", type: .primary) {
         // Is this callback a state change?
         self.callback()
       }

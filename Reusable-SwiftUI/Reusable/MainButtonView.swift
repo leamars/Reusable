@@ -9,9 +9,9 @@
 import SwiftUI
 
 enum MainButtonType {
-  case primary(withArrow: Bool)
-  case secondary(withArrow: Bool)
-  case destructive(withArrow: Bool)
+  case primary
+  case secondary
+  case destructive
   
   var color: Color {
     switch self {
@@ -21,25 +21,6 @@ enum MainButtonType {
       return .appBlack
     case .destructive:
       return .copper
-    }
-  }
-  
-  // TODO: Hopefully Luke gives us a white Image, so we don't have to switch here at all
-  var arrowImage: UIImage {
-    switch self {
-    case .primary, .secondary:
-      return #imageLiteral(resourceName: "green")
-    case .destructive:
-      return #imageLiteral(resourceName: "red")
-    }
-  }
-  
-  var hasArrow: Bool {
-    switch self {
-    case .primary(let hasArrow),
-         .destructive(let hasArrow),
-         .secondary(let hasArrow):
-      return hasArrow
     }
   }
 }
@@ -57,7 +38,7 @@ struct MainButtonView: View {
   
   init(title: String, callback: @escaping () -> Void) {
     self.title = title
-    self.type = MainButtonType.primary(withArrow: false)
+    self.type = MainButtonType.primary
     self.callback = callback
   }
   
@@ -65,15 +46,7 @@ struct MainButtonView: View {
     Button(action: {
       self.callback()
     }) {
-      
       HStack {
-        
-        if type.hasArrow {
-          Rectangle()
-            .frame(width: 24, height: 24, alignment: .center)
-            .foregroundColor(.clear)
-        }
-        
         Spacer()
         
         Text(title)
@@ -82,21 +55,6 @@ struct MainButtonView: View {
           .foregroundColor(.white)
         
         Spacer()
-        
-        if type.hasArrow {
-          ZStack {
-            Rectangle()
-              .frame(width: 24, height: 24, alignment: .center)
-              .cornerRadius(9)
-              .background(Color.clear)
-              .foregroundColor(.white)
-            Image(uiImage: type.arrowImage)
-              .resizable()
-              .foregroundColor(type.color)
-              .frame(width: 24, height: 24, alignment: .center)
-          }
-          .padding([.trailing, .top, .bottom], 10)
-        }
       }
       .frame(height: 46)
       .background(type.color)
@@ -104,15 +62,6 @@ struct MainButtonView: View {
     }
   }
 }
-#if DEBUG
-struct PrimaryButtonView_Previews: PreviewProvider {
-  static var previews: some View {
-    MainButtonView(title: "Got It!", type: .primary(withArrow: true)) {
-      print("Tapped!")
-    }
-  }
-}
-#endif
 
 
 

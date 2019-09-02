@@ -19,40 +19,31 @@ struct ContentView: View {
 //      }
 //    }
     //tableView()
-    increaseDecreaseView()
+//    increaseDecreaseView()
     //lotsOfButtons()
-  }
-  
-  func lotsOfButtons() -> some View {
-    let buttons = VStack(spacing: 20) {
-      
-      MainButtonView(title: "Sign In", type: .primary(withArrow: true)) {
-        print("Sign In")
-      }
-      
-      MainButtonView(title: "Done", type: .secondary(withArrow: true)) {
-        print("Done")
-      }
-      
-      MainButtonView(title: "Cancel", type: .destructive(withArrow: true)) {
-        print("Cancel")
-      }
-      
-      MainButtonView(title: "Sign In", type: .primary(withArrow: false)) {
-        print("Sign In")
-      }
-      
-      MainButtonView(title: "Done", type: .secondary(withArrow: false)) {
-        print("Done")
-      }
-      
-      MainButtonView(title: "Cancel", type: .destructive(withArrow: false)) {
-        print("Cancel")
-      }
-    }
-    .padding([.leading, .trailing], 20)
+//    VStack {
+//      TitleCheckmarkView(name: "iOS & Swift")
+//      TitleCheckmarkView(name: "Android")
+//      TitleCheckmarkView(name: "Server Side Swift")
+//      TitleCheckmarkView(name: "Unity")
+//    }
+//      .padding([.leading, .trailing],  40)
+    //FiltersView()
     
-    return buttons
+//     1. CheckmarkView()
+    
+//     2. let filters = FilterType.sorted
+//
+//    return
+//      VStack(alignment: .leading, spacing: 12) {
+//        ForEach(filters, id: \.self) { filter in
+//          TitleCheckmarkView(name: filter.name)
+//        }
+//      }
+//      .padding([.leading, .trailing],  40)
+    
+    EnvironmentFiltersView()
+//    FiltersView()
   }
   
   func increaseDecreaseView() -> CounterView {

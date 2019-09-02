@@ -13,6 +13,7 @@ struct CounterView: View {
   @State var counter: Int = 0
   
   var body: some View {
+    
     VStack {
       Text("My count is: \(counter)")
       IncreaseDecreaseView(counter: $counter)

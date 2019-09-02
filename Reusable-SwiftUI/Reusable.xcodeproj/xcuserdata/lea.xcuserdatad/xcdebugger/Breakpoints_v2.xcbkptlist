@@ -62,10 +62,42 @@
             filePath = "Reusable/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "cardCallback()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "59AA80C4-2C3E-441C-BFE0-932ED5E8846D - 846ecaf6fe251c74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reusable.ContentView.cardCallback() -&gt; some"
+                  moduleName = "Reusable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "59AA80C4-2C3E-441C-BFE0-932ED5E8846D - f9742f51c90ec2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Reusable.ContentView.cardCallback() -&gt; some"
+                  moduleName = "Reusable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -78,8 +110,8 @@
             filePath = "Reusable/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "cardObserving()"
             landmarkType = "7">
          </BreakpointContent>
@@ -128,6 +160,69 @@
                   startingLineNumber = "17"
                   endingLineNumber = "17"
                   offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B25461B-EA1A-404A-AFD9-A0B1AF3A4268"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reusable/CounterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4B25461B-EA1A-404A-AFD9-A0B1AF3A4268 - 4a78abaf37c7f530"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reusable.CounterView.body.getter : some"
+                  moduleName = "Reusable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/CounterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "4B25461B-EA1A-404A-AFD9-A0B1AF3A4268 - 30d7b34de99bbd89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, Reusable.IncreaseDecreaseView)&gt; in Reusable.CounterView.body.getter : some"
+                  moduleName = "Reusable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/CounterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  uuid = "4B25461B-EA1A-404A-AFD9-A0B1AF3A4268 - 30d7b34de99bbd89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, Reusable.IncreaseDecreaseView)&gt; in Reusable.CounterView.body.getter : some"
+                  moduleName = "Reusable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/CounterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "957">
                </Location>
             </Locations>
          </BreakpointContent>
