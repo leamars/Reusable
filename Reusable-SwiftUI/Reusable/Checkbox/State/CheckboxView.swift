@@ -8,45 +8,18 @@
 
 import SwiftUI
 
-var outerSide: CGFloat = 30
-var innerSide: CGFloat = 24
-var outerRadius: CGFloat = 9
-var imageHeight: CGFloat = 25
-var imageWidth: CGFloat = 23
+var resize: CGFloat = 1.5
+var outerSide: CGFloat = 30*resize
+var innerSide: CGFloat = 24*resize
+var outerRadius: CGFloat = 9*resize
+var imageHeight: CGFloat = 25*resize
+var imageWidth: CGFloat = 23*resize
 var radiusRatio: CGFloat {
   return outerRadius / outerSide
 }
 
-struct CheckmarkView: View {
-  @State var isOn: Bool = false
+struct OffView: View {
   var body: some View {
-    
-    Button(action: {
-      self.isOn.toggle()
-    }) {
-      if isOn {
-        onView()
-      } else {
-        offView()
-      }
-    }
-  }
-  
-  private func onView() -> some View {
-    ZStack(alignment: .center) {
-      Rectangle()
-        .frame(maxWidth: outerSide, maxHeight: outerSide)
-        .foregroundColor(.appGreen)
-      
-      Image("checkmark")
-        .resizable()
-        .frame(maxWidth: 15, maxHeight: 17)
-        .foregroundColor(.white)
-    }
-    .cornerRadius(radiusRatio * innerSide)
-  }
-  
-  private func offView() -> some View {
     ZStack {
       RoundedRectangle(cornerRadius: outerRadius)
       .frame(maxWidth: outerSide, maxHeight: outerSide)
@@ -55,6 +28,39 @@ struct CheckmarkView: View {
       RoundedRectangle(cornerRadius: radiusRatio * innerSide)
       .frame(maxWidth: innerSide, maxHeight: innerSide)
       .foregroundColor(.white)
+    }
+  }
+}
+
+struct OnView: View {
+  var body: some View {
+    ZStack(alignment: .center) {
+      Rectangle()
+        .frame(maxWidth: outerSide, maxHeight: outerSide)
+        .foregroundColor(.appGreen)
+      
+      Image("checkmark")
+        .resizable()
+        .frame(maxWidth: imageWidth, maxHeight: imageHeight)
+        .foregroundColor(.white)
+    }
+    .cornerRadius(radiusRatio * innerSide)
+  }
+}
+
+struct CheckmarkView: View {
+  @State var isOn: Bool = false
+  
+  var body: some View {
+    
+    Button(action: {
+      self.isOn.toggle()
+    }) {
+      if isOn {
+        OnView()
+      } else {
+        OffView()
+      }
     }
   }
 }

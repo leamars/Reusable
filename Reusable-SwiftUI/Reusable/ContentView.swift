@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
   @State var guessedRight: Bool = false
+  @State var appliedFilters: [Filter] = Filters().applied
   
   var body: some View {
 //    VStack {
@@ -21,7 +22,7 @@ struct ContentView: View {
     //tableView()
 //    increaseDecreaseView()
     //lotsOfButtons()
-//    VStack {
+//    VStack(spacing: 20) {
 //      TitleCheckmarkView(name: "iOS & Swift")
 //      TitleCheckmarkView(name: "Android")
 //      TitleCheckmarkView(name: "Server Side Swift")
@@ -31,6 +32,7 @@ struct ContentView: View {
     //FiltersView()
     
 //     1. CheckmarkView()
+    //CheckmarkView()
     
 //     2. let filters = FilterType.sorted
 //
@@ -42,8 +44,21 @@ struct ContentView: View {
 //      }
 //      .padding([.leading, .trailing],  40)
     
-    EnvironmentFiltersView()
+//    EnvironmentFiltersView()
+    //ObservableFiltersView(filters: Filters())
 //    FiltersView()
+      //.background(Color.appBlack)
+//    TitleCheckmarkView(isOn: false, name: "I ❤️ SwiftUI!")
+//    .padding([.leading, .trailing],  40)
+    
+//    let classFilters = FilterType.allCases.map { ClassFilter(type: $0, isOn: false) }
+//    @State var onStates = filters.map{ $0.isOn }
+    
+    //return EnvironmentFiltersView().environmentObject(Filters()) //MultipleBindingStatesView()
+    //return TitleCheckmarkFilterView(isOn: false, name: "Lea").environmentObject(Filters())
+    
+    //return LibraryView().environmentObject(ClassFiltersState())
+    return LibraryView().environmentObject(FiltersState())
   }
   
   func increaseDecreaseView() -> CounterView {

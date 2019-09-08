@@ -11,6 +11,7 @@
 		8B0E53D4230A53AA008C99F4 /* Screensaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D3230A53AA008C99F4 /* Screensaver.swift */; };
 		8B0E53D6230A8023008C99F4 /* CardViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D5230A8023008C99F4 /* CardViewModelView.swift */; };
 		8B0E53D8230A89D6008C99F4 /* CardCallbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D7230A89D6008C99F4 /* CardCallbackView.swift */; };
+		8B5C82B52321457B00C37062 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C82B42321457B00C37062 /* LibraryView.swift */; };
 		8B975D89231CB41D001B6658 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975D88231CB41D001B6658 /* UserDefaults+Extensions.swift */; };
 		8B975D8B231CB4AE001B6658 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975D8A231CB4AE001B6658 /* Filters.swift */; };
 		8B975D8D231CB732001B6658 /* FiltersModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975D8C231CB732001B6658 /* FiltersModalView.swift */; };
@@ -29,7 +30,13 @@
 		8B993C46230A06E000B3C7DC /* IncreaseDecreaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C45230A06E000B3C7DC /* IncreaseDecreaseView.swift */; };
 		8BA3B0BB231CC1D200D1DD8E /* EnvironmentFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0BA231CC1D200D1DD8E /* EnvironmentFiltersView.swift */; };
 		8BA3B0BD231CC20300D1DD8E /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0BC231CC20300D1DD8E /* Layout.swift */; };
+		8BA3B0BF231CCF6300D1DD8E /* ObservableFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0BE231CCF6300D1DD8E /* ObservableFiltersView.swift */; };
+		8BA3B0C1231CD13E00D1DD8E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0C0231CD13E00D1DD8E /* UIColor+Extensions.swift */; };
+		8BA3B0C3231CD34B00D1DD8E /* CheckMarkUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0C2231CD34B00D1DD8E /* CheckMarkUIKit.swift */; };
+		8BA3B0C5231E513800D1DD8E /* TitleCheckmarkEnvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0C4231E513800D1DD8E /* TitleCheckmarkEnvView.swift */; };
+		8BC184F6231E5D92001F3596 /* MultipleBindingStatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC184F5231E5D92001F3596 /* MultipleBindingStatesView.swift */; };
 		8BE12888230B704500644828 /* CardObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE12887230B704500644828 /* CardObserverView.swift */; };
+		8BF96683231E85DE000274F3 /* AppliedFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF96682231E85DE000274F3 /* AppliedFilterView.swift */; };
 		8BFEA529231C252E007D09B3 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEA528231C252E007D09B3 /* CheckboxView.swift */; };
 		8BFEA52B231C27EF007D09B3 /* TitleCheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEA52A231C27EF007D09B3 /* TitleCheckmarkView.swift */; };
 		8BFEA52D231C28AD007D09B3 /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEA52C231C28AD007D09B3 /* FiltersView.swift */; };
@@ -41,6 +48,7 @@
 		8B0E53D3230A53AA008C99F4 /* Screensaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screensaver.swift; sourceTree = "<group>"; };
 		8B0E53D5230A8023008C99F4 /* CardViewModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModelView.swift; sourceTree = "<group>"; };
 		8B0E53D7230A89D6008C99F4 /* CardCallbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCallbackView.swift; sourceTree = "<group>"; };
+		8B5C82B42321457B00C37062 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		8B975D88231CB41D001B6658 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		8B975D8A231CB4AE001B6658 /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
 		8B975D8C231CB732001B6658 /* FiltersModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersModalView.swift; sourceTree = "<group>"; };
@@ -61,7 +69,13 @@
 		8B993C45230A06E000B3C7DC /* IncreaseDecreaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreaseDecreaseView.swift; sourceTree = "<group>"; };
 		8BA3B0BA231CC1D200D1DD8E /* EnvironmentFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentFiltersView.swift; sourceTree = "<group>"; };
 		8BA3B0BC231CC20300D1DD8E /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		8BA3B0BE231CCF6300D1DD8E /* ObservableFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableFiltersView.swift; sourceTree = "<group>"; };
+		8BA3B0C0231CD13E00D1DD8E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		8BA3B0C2231CD34B00D1DD8E /* CheckMarkUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMarkUIKit.swift; sourceTree = "<group>"; };
+		8BA3B0C4231E513800D1DD8E /* TitleCheckmarkEnvView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCheckmarkEnvView.swift; sourceTree = "<group>"; };
+		8BC184F5231E5D92001F3596 /* MultipleBindingStatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleBindingStatesView.swift; sourceTree = "<group>"; };
 		8BE12887230B704500644828 /* CardObserverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardObserverView.swift; sourceTree = "<group>"; };
+		8BF96682231E85DE000274F3 /* AppliedFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedFilterView.swift; sourceTree = "<group>"; };
 		8BFEA528231C252E007D09B3 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 		8BFEA52A231C27EF007D09B3 /* TitleCheckmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCheckmarkView.swift; sourceTree = "<group>"; };
 		8BFEA52C231C28AD007D09B3 /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
@@ -90,6 +104,7 @@
 		8B975D91231CBD89001B6658 /* BindingState */ = {
 			isa = PBXGroup;
 			children = (
+				8BC184F5231E5D92001F3596 /* MultipleBindingStatesView.swift */,
 				8BFEA52A231C27EF007D09B3 /* TitleCheckmarkView.swift */,
 				8B975D98231CBE5E001B6658 /* CheckboxBinding.swift */,
 			);
@@ -99,6 +114,7 @@
 		8B975D92231CBD94001B6658 /* Observable */ = {
 			isa = PBXGroup;
 			children = (
+				8BA3B0BE231CCF6300D1DD8E /* ObservableFiltersView.swift */,
 			);
 			path = Observable;
 			sourceTree = "<group>";
@@ -107,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				8BA3B0BA231CC1D200D1DD8E /* EnvironmentFiltersView.swift */,
+				8BA3B0C4231E513800D1DD8E /* TitleCheckmarkEnvView.swift */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -149,6 +166,9 @@
 				8B0E53D7230A89D6008C99F4 /* CardCallbackView.swift */,
 				8BE12887230B704500644828 /* CardObserverView.swift */,
 				8BFEA52E231C2900007D09B3 /* Buttonize.swift */,
+				8BA3B0C0231CD13E00D1DD8E /* UIColor+Extensions.swift */,
+				8BA3B0C2231CD34B00D1DD8E /* CheckMarkUIKit.swift */,
+				8BF96682231E85DE000274F3 /* AppliedFilterView.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -174,6 +194,7 @@
 				8B975D8C231CB732001B6658 /* FiltersModalView.swift */,
 				8B975D8E231CBACA001B6658 /* FiltersMC.swift */,
 				8BA3B0BC231CC20300D1DD8E /* Layout.swift */,
+				8B5C82B42321457B00C37062 /* LibraryView.swift */,
 			);
 			path = Checkbox;
 			sourceTree = "<group>";
@@ -252,24 +273,31 @@
 				8BA3B0BB231CC1D200D1DD8E /* EnvironmentFiltersView.swift in Sources */,
 				8BFEA52D231C28AD007D09B3 /* FiltersView.swift in Sources */,
 				8BA3B0BD231CC20300D1DD8E /* Layout.swift in Sources */,
+				8BA3B0C1231CD13E00D1DD8E /* UIColor+Extensions.swift in Sources */,
 				8B993C402309E4F300B3C7DC /* Font+Extensions.swift in Sources */,
 				8B993C3E2309E48700B3C7DC /* Color+Extensions.swift in Sources */,
 				8BE12888230B704500644828 /* CardObserverView.swift in Sources */,
 				8BFEA52B231C27EF007D09B3 /* TitleCheckmarkView.swift in Sources */,
+				8BF96683231E85DE000274F3 /* AppliedFilterView.swift in Sources */,
 				8B0E53D8230A89D6008C99F4 /* CardCallbackView.swift in Sources */,
 				8B993C282309E33300B3C7DC /* AppDelegate.swift in Sources */,
 				8B0E53D4230A53AA008C99F4 /* Screensaver.swift in Sources */,
+				8BA3B0C3231CD34B00D1DD8E /* CheckMarkUIKit.swift in Sources */,
 				8B993C44230A066400B3C7DC /* CounterView.swift in Sources */,
 				8B975D8B231CB4AE001B6658 /* Filters.swift in Sources */,
 				8B993C2A2309E33300B3C7DC /* SceneDelegate.swift in Sources */,
 				8B975D89231CB41D001B6658 /* UserDefaults+Extensions.swift in Sources */,
 				8B993C2C2309E33300B3C7DC /* ContentView.swift in Sources */,
+				8BC184F6231E5D92001F3596 /* MultipleBindingStatesView.swift in Sources */,
+				8B5C82B52321457B00C37062 /* LibraryView.swift in Sources */,
+				8BA3B0C5231E513800D1DD8E /* TitleCheckmarkEnvView.swift in Sources */,
 				8B993C46230A06E000B3C7DC /* IncreaseDecreaseView.swift in Sources */,
 				8B993C3C2309E34F00B3C7DC /* MainButtonView.swift in Sources */,
 				8B975D8F231CBACA001B6658 /* FiltersMC.swift in Sources */,
 				8BFEA529231C252E007D09B3 /* CheckboxView.swift in Sources */,
 				8B0E53D6230A8023008C99F4 /* CardViewModelView.swift in Sources */,
 				8B0E53D2230A4F5A008C99F4 /* CellView.swift in Sources */,
+				8BA3B0BF231CCF6300D1DD8E /* ObservableFiltersView.swift in Sources */,
 				8B975D8D231CB732001B6658 /* FiltersModalView.swift in Sources */,
 				8BFEA52F231C2900007D09B3 /* Buttonize.swift in Sources */,
 				8B975D99231CBE5E001B6658 /* CheckboxBinding.swift in Sources */,

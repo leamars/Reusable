@@ -13,13 +13,13 @@ extension Font {
     return Font.body
   }
   static var uiButtonLabel: Font {
-    return Font.system(size: 15.0).bold()
+    return Font.system(size: 18.0).bold()
   }
   static var uiBodyCustom: Font {
-    return Font.system(size: 15.0)
+    return Font.system(size: 25.0)
   }
   static var uiLabel: Font {
-    return Font.system(size: 14.0).weight(.semibold)
+    return Font.system(size: 18.0).weight(.semibold)
   }
   static var uiButtonLabelSmall: Font {
     return Font.system(size: 13.0).weight(.semibold)
