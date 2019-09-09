@@ -18,38 +18,6 @@
             endingLineNumber = "19"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "90B96ECD-4978-4121-AC69-F53ADDA7C0D0 - 28893b54978bd5c2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Reusable.CellView.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/CellView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "134">
-               </Location>
-               <Location
-                  uuid = "90B96ECD-4978-4121-AC69-F53ADDA7C0D0 - a186126af2aa62f8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;)&gt; in Reusable.CellView.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/CellView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "534">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -66,38 +34,6 @@
             endingLineNumber = "16"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "2F9C23EF-2C5F-48C6-ABB4-93765A49D15C - d96f3fab4c67df32"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Reusable.IncreaseDecreaseView.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/IncreaseDecreaseView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "54">
-               </Location>
-               <Location
-                  uuid = "2F9C23EF-2C5F-48C6-ABB4-93765A49D15C - ccc9532e7c5427ae"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in Reusable.IncreaseDecreaseView.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/IncreaseDecreaseView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "158">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -114,53 +50,6 @@
             endingLineNumber = "17"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "4B25461B-EA1A-404A-AFD9-A0B1AF3A4268 - 4a78abaf37c7f530"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Reusable.CounterView.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/CounterView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "30">
-               </Location>
-               <Location
-                  uuid = "4B25461B-EA1A-404A-AFD9-A0B1AF3A4268 - 30d7b34de99bbd89"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, Reusable.IncreaseDecreaseView)&gt; in Reusable.CounterView.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/CounterView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "162">
-               </Location>
-               <Location
-                  uuid = "4B25461B-EA1A-404A-AFD9-A0B1AF3A4268 - 30d7b34de99bbd89"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, Reusable.IncreaseDecreaseView)&gt; in Reusable.CounterView.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/CounterView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "957">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -194,11 +83,11 @@
                   offsetFromSymbolStart = "38">
                </Location>
                <Location
-                  uuid = "136AF7A0-8A71-4401-99BF-EC0668E563CA - f19c3a64fbfe8f13"
+                  uuid = "136AF7A0-8A71-4401-99BF-EC0668E563CA - 7ee130042043a6e2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in Reusable.EnvironmentFiltersView.body.getter : some"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Reusable.Heading, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in Reusable.EnvironmentFiltersView.body.getter : some"
                   moduleName = "Reusable"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/Checkbox/Environment/EnvironmentFiltersView.swift"
@@ -206,7 +95,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
                   endingLineNumber = "19"
-                  offsetFromSymbolStart = "315">
+                  offsetFromSymbolStart = "206">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -262,38 +151,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A10B6218-7E84-4085-AA20-960B6D2BF77A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Reusable/Checkbox/BindingState/CheckboxBinding.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7F46FBFE-9E05-4FB2-8E2C-0D4800E56530"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Reusable/Checkbox/BindingState/CheckboxBinding.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "55E22021-5430-42E1-8F19-E9610A3CEDCB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -317,42 +174,10 @@
             filePath = "Reusable/Checkbox/BindingState/TitleCheckmarkView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "382B6E4B-6A7C-4262-B0B8-9008F652EC21 - 9c83557f164d495b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Reusable.TitleCheckbox.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/Checkbox/BindingState/TitleCheckmarkView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "135">
-               </Location>
-               <Location
-                  uuid = "382B6E4B-6A7C-4262-B0B8-9008F652EC21 - 1d27579134ada384"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Reusable.TitleText, SwiftUI.Spacer)&gt; in Reusable.TitleCheckbox.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/Checkbox/BindingState/TitleCheckmarkView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "66"
-                  endingLineNumber = "66"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -365,10 +190,10 @@
             filePath = "Reusable/Checkbox/BindingState/TitleCheckmarkView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "TitleCheckmarkFilterView"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -397,9 +222,9 @@
             filePath = "Reusable/Checkbox/BindingState/TitleCheckmarkView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
-            landmarkName = "index"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
@@ -433,38 +258,6 @@
             endingLineNumber = "33"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "59F1A4A5-9841-489C-B035-7AA02ADABE88 - 803d6b015074f90b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Reusable.AppliedFilterView.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/Checkbox/LibraryView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "78">
-               </Location>
-               <Location
-                  uuid = "59F1A4A5-9841-489C-B035-7AA02ADABE88 - 30516f7d7e0c26f7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Reusable.AppliedFilterView.body.getter : some"
-                  moduleName = "Reusable"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lea/Desktop/Github/Reusable/Reusable-SwiftUI/Reusable/Checkbox/LibraryView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "170">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -513,6 +306,22 @@
             endingLineNumber = "76"
             landmarkName = "filtersList()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F333327-7FBA-4613-81B2-5B527EF95F6B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reusable/SwiftUI/@Environment + @Binding/FiltersBindingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

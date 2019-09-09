@@ -48,7 +48,7 @@ struct OnView: View {
   }
 }
 
-struct CheckmarkView: View {
+struct CheckboxView: View {
   @State var isOn: Bool = false
   
   var body: some View {

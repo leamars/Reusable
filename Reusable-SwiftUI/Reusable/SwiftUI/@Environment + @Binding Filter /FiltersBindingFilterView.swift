@@ -1,21 +1,20 @@
 //
-//  FiltersView.swift
+//  FiltersBindingFilterView.swift
 //  Reusable
 //
-//  Created by Lea Marolt Sonnenschein on 01/09/2019.
+//  Created by Lea Marolt Sonnenschein on 09/09/2019.
 //  Copyright © 2019 elemes. All rights reserved.
 //
 
-import Combine
 import SwiftUI
 
-struct FiltersView: View {
+struct FiltersBindingFilterView: View {
   
-  @EnvironmentObject var state: ClassFiltersState
+  @EnvironmentObject var state: FiltersState
   @Binding var isPresented: Bool
       
   var body: some View {
-        
+    
     return VStack {
       Heading()
       
@@ -38,10 +37,42 @@ struct FiltersView: View {
   }
   
   private func filtersList() -> some View {
+    
     return VStack(alignment: .leading, spacing: 12) {
       ForEach(state.editable, id:\.type) { filter in
-        TitleCheckmarkFilterView(filter: filter)
+        TitleCheckmarkBindingFilterView(filter: filter)
       }
     }
   }
 }
+
+struct TitleCheckmarkBindingFilterView: View {
+  @State var filter: Filter
+  
+  var body: some View {
+    HStack {
+      TitleText(color: filter.isOn ? .appGreen : .white, text: filter.type.name)
+      Spacer()
+      CheckmarkBindingFilterView(filter: $filter)
+    }
+      .frame(minHeight: 46)
+  }
+}
+
+struct CheckmarkBindingFilterView: View {
+  @Binding var filter: Filter
+  
+  var body: some View {
+        
+  Button(action: {
+    self.filter.isOn.toggle()
+    }) {
+      if filter.isOn {
+        OnView()
+      } else {
+        OffView()
+      }
+    }
+  }
+}
+

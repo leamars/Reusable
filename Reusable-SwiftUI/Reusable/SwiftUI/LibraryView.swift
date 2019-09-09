@@ -50,11 +50,19 @@ struct AppliedFilterView: View {
   }
 }
 
+enum FiltersViewType {
+  case binding
+  case index
+  case callbacks
+}
+
 struct LibraryView: View {
   
-  //@EnvironmentObject var state: ClassFiltersState
   @EnvironmentObject var state: FiltersState
   @State var isPresented: Bool = false
+  
+  var type: FiltersViewType
+  
   var body: some View {
     
     VStack {
@@ -72,10 +80,22 @@ struct LibraryView: View {
   
   private func filtersView() -> some View {
     
+    let filtersView: AnyView
+    
+    switch type {
+    case .binding:
+      filtersView = AnyView(FiltersBindingEnumeratedView(isPresented: self.$isPresented).environmentObject(self.state))
+    case .index:
+      filtersView = AnyView(FiltersBindingIndexFilterView(isPresented: self.$isPresented).environmentObject(self.state))
+    case .callbacks:
+      filtersView = AnyView(FiltersCallbacksView(isPresented: self.$isPresented).environmentObject(self.state))
+    }
+    
     return BackgroundFillView(backgroundColor: .appBlack) {
-      ObservableFiltersView(isPresented: self.$isPresented).environmentObject(self.state)
+      filtersView
     }
   }
+  
   private func appliedFiltersView() -> some View {
     ScrollView(.horizontal, showsIndicators: false) {
       HStack(alignment: .top, spacing: AppliedLayout.filterSpacing) {
