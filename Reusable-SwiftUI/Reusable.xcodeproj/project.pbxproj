@@ -7,15 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B0E53D2230A4F5A008C99F4 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D1230A4F5A008C99F4 /* CellView.swift */; };
-		8B0E53D4230A53AA008C99F4 /* Screensaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D3230A53AA008C99F4 /* Screensaver.swift */; };
-		8B0E53D6230A8023008C99F4 /* CardViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D5230A8023008C99F4 /* CardViewModelView.swift */; };
-		8B0E53D8230A89D6008C99F4 /* CardCallbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E53D7230A89D6008C99F4 /* CardCallbackView.swift */; };
 		8B5C82B52321457B00C37062 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C82B42321457B00C37062 /* LibraryView.swift */; };
+		8B5C82BA23265A7800C37062 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C82B923265A7800C37062 /* MainButtonView.swift */; };
 		8B975D89231CB41D001B6658 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975D88231CB41D001B6658 /* UserDefaults+Extensions.swift */; };
 		8B975D8B231CB4AE001B6658 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975D8A231CB4AE001B6658 /* Filters.swift */; };
-		8B975D8D231CB732001B6658 /* FiltersModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975D8C231CB732001B6658 /* FiltersModalView.swift */; };
-		8B975D8F231CBACA001B6658 /* FiltersMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975D8E231CBACA001B6658 /* FiltersMC.swift */; };
 		8B975D99231CBE5E001B6658 /* CheckboxBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B975D98231CBE5E001B6658 /* CheckboxBinding.swift */; };
 		8B993C282309E33300B3C7DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C272309E33300B3C7DC /* AppDelegate.swift */; };
 		8B993C2A2309E33300B3C7DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C292309E33300B3C7DC /* SceneDelegate.swift */; };
@@ -23,11 +18,8 @@
 		8B993C2E2309E33700B3C7DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B993C2D2309E33700B3C7DC /* Assets.xcassets */; };
 		8B993C312309E33700B3C7DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B993C302309E33700B3C7DC /* Preview Assets.xcassets */; };
 		8B993C342309E33700B3C7DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B993C322309E33700B3C7DC /* LaunchScreen.storyboard */; };
-		8B993C3C2309E34F00B3C7DC /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C3B2309E34F00B3C7DC /* MainButtonView.swift */; };
 		8B993C3E2309E48700B3C7DC /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C3D2309E48700B3C7DC /* Color+Extensions.swift */; };
 		8B993C402309E4F300B3C7DC /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C3F2309E4F300B3C7DC /* Font+Extensions.swift */; };
-		8B993C44230A066400B3C7DC /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C43230A066400B3C7DC /* CounterView.swift */; };
-		8B993C46230A06E000B3C7DC /* IncreaseDecreaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993C45230A06E000B3C7DC /* IncreaseDecreaseView.swift */; };
 		8BA3B0BB231CC1D200D1DD8E /* EnvironmentFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0BA231CC1D200D1DD8E /* EnvironmentFiltersView.swift */; };
 		8BA3B0BD231CC20300D1DD8E /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0BC231CC20300D1DD8E /* Layout.swift */; };
 		8BA3B0BF231CCF6300D1DD8E /* ObservableFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0BE231CCF6300D1DD8E /* ObservableFiltersView.swift */; };
@@ -35,24 +27,16 @@
 		8BA3B0C3231CD34B00D1DD8E /* CheckMarkUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0C2231CD34B00D1DD8E /* CheckMarkUIKit.swift */; };
 		8BA3B0C5231E513800D1DD8E /* TitleCheckmarkEnvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3B0C4231E513800D1DD8E /* TitleCheckmarkEnvView.swift */; };
 		8BC184F6231E5D92001F3596 /* MultipleBindingStatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC184F5231E5D92001F3596 /* MultipleBindingStatesView.swift */; };
-		8BE12888230B704500644828 /* CardObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE12887230B704500644828 /* CardObserverView.swift */; };
-		8BF96683231E85DE000274F3 /* AppliedFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF96682231E85DE000274F3 /* AppliedFilterView.swift */; };
 		8BFEA529231C252E007D09B3 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEA528231C252E007D09B3 /* CheckboxView.swift */; };
 		8BFEA52B231C27EF007D09B3 /* TitleCheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEA52A231C27EF007D09B3 /* TitleCheckmarkView.swift */; };
 		8BFEA52D231C28AD007D09B3 /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEA52C231C28AD007D09B3 /* FiltersView.swift */; };
-		8BFEA52F231C2900007D09B3 /* Buttonize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEA52E231C2900007D09B3 /* Buttonize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B0E53D1230A4F5A008C99F4 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
-		8B0E53D3230A53AA008C99F4 /* Screensaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screensaver.swift; sourceTree = "<group>"; };
-		8B0E53D5230A8023008C99F4 /* CardViewModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModelView.swift; sourceTree = "<group>"; };
-		8B0E53D7230A89D6008C99F4 /* CardCallbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCallbackView.swift; sourceTree = "<group>"; };
 		8B5C82B42321457B00C37062 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		8B5C82B923265A7800C37062 /* MainButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
 		8B975D88231CB41D001B6658 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		8B975D8A231CB4AE001B6658 /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
-		8B975D8C231CB732001B6658 /* FiltersModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersModalView.swift; sourceTree = "<group>"; };
-		8B975D8E231CBACA001B6658 /* FiltersMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersMC.swift; sourceTree = "<group>"; };
 		8B975D98231CBE5E001B6658 /* CheckboxBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxBinding.swift; sourceTree = "<group>"; };
 		8B993C242309E33300B3C7DC /* Reusable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reusable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B993C272309E33300B3C7DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,11 +46,8 @@
 		8B993C302309E33700B3C7DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B993C332309E33700B3C7DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B993C352309E33700B3C7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B993C3B2309E34F00B3C7DC /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
 		8B993C3D2309E48700B3C7DC /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		8B993C3F2309E4F300B3C7DC /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
-		8B993C43230A066400B3C7DC /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
-		8B993C45230A06E000B3C7DC /* IncreaseDecreaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreaseDecreaseView.swift; sourceTree = "<group>"; };
 		8BA3B0BA231CC1D200D1DD8E /* EnvironmentFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentFiltersView.swift; sourceTree = "<group>"; };
 		8BA3B0BC231CC20300D1DD8E /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		8BA3B0BE231CCF6300D1DD8E /* ObservableFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableFiltersView.swift; sourceTree = "<group>"; };
@@ -74,12 +55,9 @@
 		8BA3B0C2231CD34B00D1DD8E /* CheckMarkUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMarkUIKit.swift; sourceTree = "<group>"; };
 		8BA3B0C4231E513800D1DD8E /* TitleCheckmarkEnvView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCheckmarkEnvView.swift; sourceTree = "<group>"; };
 		8BC184F5231E5D92001F3596 /* MultipleBindingStatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleBindingStatesView.swift; sourceTree = "<group>"; };
-		8BE12887230B704500644828 /* CardObserverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardObserverView.swift; sourceTree = "<group>"; };
-		8BF96682231E85DE000274F3 /* AppliedFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedFilterView.swift; sourceTree = "<group>"; };
 		8BFEA528231C252E007D09B3 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 		8BFEA52A231C27EF007D09B3 /* TitleCheckmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCheckmarkView.swift; sourceTree = "<group>"; };
 		8BFEA52C231C28AD007D09B3 /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
-		8BFEA52E231C2900007D09B3 /* Buttonize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttonize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +71,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B5C82B6232659BA00C37062 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B975D88231CB41D001B6658 /* UserDefaults+Extensions.swift */,
+				8B993C3D2309E48700B3C7DC /* Color+Extensions.swift */,
+				8B993C3F2309E4F300B3C7DC /* Font+Extensions.swift */,
+				8BA3B0C0231CD13E00D1DD8E /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B5C82B7232659C600C37062 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8BA3B0C2231CD34B00D1DD8E /* CheckMarkUIKit.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		8B5C82B8232659D400C37062 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				8B5C82BC23265A9700C37062 /* Reusable */,
+				8B5C82BB23265A9200C37062 /* State */,
+				8B5C82B42321457B00C37062 /* LibraryView.swift */,
+				8BFEA52C231C28AD007D09B3 /* FiltersView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		8B5C82BB23265A9200C37062 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				8B975D8A231CB4AE001B6658 /* Filters.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		8B5C82BC23265A9700C37062 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				8B5C82B923265A7800C37062 /* MainButtonView.swift */,
+				8BFEA528231C252E007D09B3 /* CheckboxView.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
 		8B975D90231CBD84001B6658 /* State */ = {
 			isa = PBXGroup;
 			children = (
-				8BFEA528231C252E007D09B3 /* CheckboxView.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -147,6 +171,9 @@
 		8B993C262309E33300B3C7DC /* Reusable */ = {
 			isa = PBXGroup;
 			children = (
+				8B5C82B8232659D400C37062 /* SwiftUI */,
+				8B5C82B7232659C600C37062 /* UIKit */,
+				8B5C82B6232659BA00C37062 /* Extensions */,
 				8BFEA527231C251C007D09B3 /* Checkbox */,
 				8B993C272309E33300B3C7DC /* AppDelegate.swift */,
 				8B993C292309E33300B3C7DC /* SceneDelegate.swift */,
@@ -155,20 +182,6 @@
 				8B993C322309E33700B3C7DC /* LaunchScreen.storyboard */,
 				8B993C352309E33700B3C7DC /* Info.plist */,
 				8B993C2F2309E33700B3C7DC /* Preview Content */,
-				8B993C3B2309E34F00B3C7DC /* MainButtonView.swift */,
-				8B993C3D2309E48700B3C7DC /* Color+Extensions.swift */,
-				8B993C3F2309E4F300B3C7DC /* Font+Extensions.swift */,
-				8B993C43230A066400B3C7DC /* CounterView.swift */,
-				8B993C45230A06E000B3C7DC /* IncreaseDecreaseView.swift */,
-				8B0E53D1230A4F5A008C99F4 /* CellView.swift */,
-				8B0E53D3230A53AA008C99F4 /* Screensaver.swift */,
-				8B0E53D5230A8023008C99F4 /* CardViewModelView.swift */,
-				8B0E53D7230A89D6008C99F4 /* CardCallbackView.swift */,
-				8BE12887230B704500644828 /* CardObserverView.swift */,
-				8BFEA52E231C2900007D09B3 /* Buttonize.swift */,
-				8BA3B0C0231CD13E00D1DD8E /* UIColor+Extensions.swift */,
-				8BA3B0C2231CD34B00D1DD8E /* CheckMarkUIKit.swift */,
-				8BF96682231E85DE000274F3 /* AppliedFilterView.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -188,13 +201,7 @@
 				8B975D92231CBD94001B6658 /* Observable */,
 				8B975D91231CBD89001B6658 /* BindingState */,
 				8B975D90231CBD84001B6658 /* State */,
-				8BFEA52C231C28AD007D09B3 /* FiltersView.swift */,
-				8B975D88231CB41D001B6658 /* UserDefaults+Extensions.swift */,
-				8B975D8A231CB4AE001B6658 /* Filters.swift */,
-				8B975D8C231CB732001B6658 /* FiltersModalView.swift */,
-				8B975D8E231CBACA001B6658 /* FiltersMC.swift */,
 				8BA3B0BC231CC20300D1DD8E /* Layout.swift */,
-				8B5C82B42321457B00C37062 /* LibraryView.swift */,
 			);
 			path = Checkbox;
 			sourceTree = "<group>";
@@ -276,30 +283,19 @@
 				8BA3B0C1231CD13E00D1DD8E /* UIColor+Extensions.swift in Sources */,
 				8B993C402309E4F300B3C7DC /* Font+Extensions.swift in Sources */,
 				8B993C3E2309E48700B3C7DC /* Color+Extensions.swift in Sources */,
-				8BE12888230B704500644828 /* CardObserverView.swift in Sources */,
 				8BFEA52B231C27EF007D09B3 /* TitleCheckmarkView.swift in Sources */,
-				8BF96683231E85DE000274F3 /* AppliedFilterView.swift in Sources */,
-				8B0E53D8230A89D6008C99F4 /* CardCallbackView.swift in Sources */,
 				8B993C282309E33300B3C7DC /* AppDelegate.swift in Sources */,
-				8B0E53D4230A53AA008C99F4 /* Screensaver.swift in Sources */,
 				8BA3B0C3231CD34B00D1DD8E /* CheckMarkUIKit.swift in Sources */,
-				8B993C44230A066400B3C7DC /* CounterView.swift in Sources */,
 				8B975D8B231CB4AE001B6658 /* Filters.swift in Sources */,
 				8B993C2A2309E33300B3C7DC /* SceneDelegate.swift in Sources */,
 				8B975D89231CB41D001B6658 /* UserDefaults+Extensions.swift in Sources */,
 				8B993C2C2309E33300B3C7DC /* ContentView.swift in Sources */,
+				8B5C82BA23265A7800C37062 /* MainButtonView.swift in Sources */,
 				8BC184F6231E5D92001F3596 /* MultipleBindingStatesView.swift in Sources */,
 				8B5C82B52321457B00C37062 /* LibraryView.swift in Sources */,
 				8BA3B0C5231E513800D1DD8E /* TitleCheckmarkEnvView.swift in Sources */,
-				8B993C46230A06E000B3C7DC /* IncreaseDecreaseView.swift in Sources */,
-				8B993C3C2309E34F00B3C7DC /* MainButtonView.swift in Sources */,
-				8B975D8F231CBACA001B6658 /* FiltersMC.swift in Sources */,
 				8BFEA529231C252E007D09B3 /* CheckboxView.swift in Sources */,
-				8B0E53D6230A8023008C99F4 /* CardViewModelView.swift in Sources */,
-				8B0E53D2230A4F5A008C99F4 /* CellView.swift in Sources */,
 				8BA3B0BF231CCF6300D1DD8E /* ObservableFiltersView.swift in Sources */,
-				8B975D8D231CB732001B6658 /* FiltersModalView.swift in Sources */,
-				8BFEA52F231C2900007D09B3 /* Buttonize.swift in Sources */,
 				8B975D99231CBE5E001B6658 /* CheckboxBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,9 +14,6 @@ enum UserDefaultsType: String {
 
 extension UserDefaults {
   
-  // Construct filters from UserDefaults
-  // Search is not included?
-  // Filters = filters (domains + content + categories + difficulties) + sort
   var filters: [Filter] {
     guard let filterDataArray = UserDefaults.standard.object(forKey: UserDefaultsType.filters.rawValue) as? [Data] else {
       return []

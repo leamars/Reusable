@@ -16,15 +16,10 @@ struct EnvironmentFiltersView: View {
         
     return VStack {
       
-      Toggle(isOn: $filters.isOn) {
-        Text("Hello")
-      }
-      .onTapGesture {
-        print("Hello")
-      }
+      Heading()
       
-//      filtersList()
-//        .padding([.leading, .trailing, .top], 20)
+      filtersList()
+        .padding([.leading, .trailing, .top], 20)
       
       applyOrCloseButton()
         .padding([.leading, .trailing], 20)
@@ -59,36 +54,10 @@ struct CheckboxFilter: View  {
       self.isOn.toggle()
     }) {
       if isOn {
-        onView()
+        OnView()
       } else {
-        offView()
+        OffView()
       }
-    }
-  }
-  
-  private func onView() -> some View {
-    ZStack(alignment: .center) {
-      Rectangle()
-        .frame(maxWidth: outerSide, maxHeight: outerSide)
-        .foregroundColor(.appGreen)
-      
-      Image("checkmark")
-        .resizable()
-        .frame(maxWidth: imageWidth, maxHeight: imageHeight)
-        .foregroundColor(.white)
-    }
-    .cornerRadius(radiusRatio * innerSide)
-  }
-  
-  private func offView() -> some View {
-    ZStack {
-      RoundedRectangle(cornerRadius: outerRadius)
-      .frame(maxWidth: outerSide, maxHeight: outerSide)
-      .foregroundColor(Color.coolGrey)
-      
-      RoundedRectangle(cornerRadius: radiusRatio * innerSide)
-      .frame(maxWidth: innerSide, maxHeight: innerSide)
-      .foregroundColor(.white)
     }
   }
 }

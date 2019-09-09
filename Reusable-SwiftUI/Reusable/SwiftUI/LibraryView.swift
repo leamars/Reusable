@@ -21,19 +21,13 @@ private enum AppliedLayout {
   static let filtersPaddingTop: CGFloat = 12
 }
 
-// TODO: Should make this more reuse-friendly
 struct AppliedFilterView: View {
   
-  //@EnvironmentObject var state: ClassFiltersState
   @EnvironmentObject var state: FiltersState
-  //var filter: ClassFilter
   var filter: Filter
   
   var body: some View {
     Button(action: {
-      // If there's no filter passed through, it's a destructive one that should clear all, so we init a new Filters object
-      // Toggle filter
-      //self.filter.isOn.toggle()
       let index = self.state.all.firstIndex(of: self.filter)!
       self.state.all[index].isOn = false
       self.state.updateEditable()
